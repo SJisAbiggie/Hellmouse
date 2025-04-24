@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hellmouse</title>
+    <style>
+      body {
+        background-color: black;
+        color: red;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        font-size: 4rem;
+        margin-top: 20vh;
+      }
+      .model-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin-top: 3rem;
+      }
+      .card {
+        background-color: #333;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
+      .card h2 {
+        color: red;
+        font-size: 2rem;
+      }
+      .card p {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HELLMOUSE</h1>
+    <p>Built for fear. Engineered for power. Forged in madness.</p>
+    <div class="model-cards">
+      <div class="card">
+        <h2>Hellmouse</h2>
+        <p>Demon 170-powered street terror. Carbon touches. Targa top. Pure rage.</p>
+        <p><strong>Starting at $120,000</strong></p>
+      </div>
+      <div class="card">
+        <h2>Hellmouse X</h2>
+        <p>Single turbo boost added. Flame tune. More bite, same mouse.</p>
+        <p><strong>Starting at $185,000</strong></p>
+      </div>
+      <div class="card">
+        <h2>Hellmouse X2</h2>
+        <p>Twin turbo, blower combo. All carbon widebody. Drag legend.</p>
+        <p><strong>Starting at $320,000</strong></p>
+      </div>
+      <div class="card">
+        <h2>Hellmouse X2R</h2>
+        <p>Top Fuel-class monster. Twin turbos, dual superchargers, parachute-equipped.</p>
+        <p><strong>Starting at $1,100,000</strong></p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 T&N Motors. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
